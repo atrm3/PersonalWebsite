@@ -1,1 +1,29 @@
-<h1>HelloWorld!</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>A little about me</h1>
+    <p>Hi, I'm a computer scientist</p>
+    <p>Currently I am doing stuff.<p>
+    <p>My most proficient languages are <language>Python</language> and <language>C++</language> but I enjoy learning new skills. And when I'm not , I'm probably ranking up in Tekken(My main is Jin).</p>
+
+    <h1>Things I've worked on</h1>
+    <a href="index.html">This website</a>
+    <button type="button" id="funnyRatButton" onclick="changeImg();"><img id="ratPic" src="RatButton.png"/></button>
+
+    <script>
+        function changeImg(){
+            var img = document.getElementById("ratPic");
+            img.src ="SpinningRat.gif";
+            return false;
+        }
+    </script>
+
+
+</body>
+
+</html>

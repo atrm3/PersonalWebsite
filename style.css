@@ -1,0 +1,37 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+   background-color: #12072e;
+   color: #FFF;  
+}
+
+footer{
+    background-color: #12072e;
+    color: #FFF; 
+}
+
+h1{
+    font-size: 60x;
+}
+
+p{
+    font-size: 40px;
+}
+
+#funnyRatButton{
+    background-color: #12072e;
+    padding: 0;
+    border: none;
+    scale: 0.5;
+}
+
+#funnyRatButton.hover {
+    background-color: #160d2e;
+}
+
+language{
+    color:aquamarine
+}
