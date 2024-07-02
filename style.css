@@ -28,7 +28,7 @@ p{
     scale: 0.5;
 }
 
-#funnyRatButton.hover {
+#funnyRatButton:hover {
     background-color: #160d2e;
 }
 
