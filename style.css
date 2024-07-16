@@ -6,6 +6,8 @@
 body{
    background-color: #12072e;
    color: #FFF;  
+   position: static;
+   text-align: center;
 }
 
 footer{
@@ -14,11 +16,11 @@ footer{
 }
 
 h1{
-    font-size: 60x;
+    font-size: 50px;
 }
 
 p{
-    font-size: 40px;
+    font-size: 25px;
 }
 
 #funnyRatButton{
