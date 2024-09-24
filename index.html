@@ -5,11 +5,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<style>
+    body{
+        opacity: 0;
+        transition: opacity 2.5s;
+    }
+</style>
+
+<body onload="document.body.style.opacity='1'">
     <h1>A little about me</h1>
     <p>Hi, I'm a computer scientist.</p>
     <p>Currently I am wokring on a Discord bot to help schedule game nights or other events.<p>
-    <p>My most proficient languages are <language>Python</language> and <language>C++</language> but I enjoy learning new skills. <br>And when I'm not , I'm probably ranking up in Tekken(My main is Jin).</p>
+    <p>My most proficient languages are <language>Python</language> and <language>C++</language> but I enjoy learning new skills. <br>And when I'm not, I'm probably ranking up in Tekken(My main is Jin).</p>
+    
 
     <button type="button" id="funnyRatButton" onclick="changeImg();"><img id="ratPic" src="RatButton.png"/></button>
 
