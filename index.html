@@ -5,36 +5,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-    body{
-        opacity: 0;
-        transition: opacity 2.5s;
-    }
-</style>
-
-<body onload="document.body.style.opacity='1'">
-    <h1>A little about me</h1>
-    <p>Hi, I'm a computer scientist.</p>
-    <p>Currently I am wokring on a Discord bot to help schedule game nights or other events.<p>
-    <p>My most proficient languages are <language>Python</language> and <language>C++</language> but I enjoy learning new skills. <br>And when I'm not, I'm probably ranking up in Tekken(My main is Jin).</p>
+<body>
+    <div class="columns">
+        <div class="aboutMe">
+            <h1>A little about me</h1>
+            <div class="aboutMeBody">
+                <p>Hi, I'm a computer scientist.</p>
+                <p>Currently I am wokring on a Discord bot to help schedule game nights or other events.<p>
+                <p>My most proficient languages are <language>Python</language> and <language>C++</language> but I enjoy learning new skills. And when I'm not, I'm probably playing Deadlock(My main is Abrams).</p>
+            </div>
+        </div>
     
+        <div class="funnyButton">
+            <h1>Click this funny button</h2>
+            <button type="button" id="funnyRatButton" onclick="changeImg();"><img id="ratPic" src="RatButton.png"/></button>
 
-    <button type="button" id="funnyRatButton" onclick="changeImg();"><img id="ratPic" src="RatButton.png"/></button>
+            <script>
+                function changeImg(){
+                var img = document.getElementById("ratPic");
+                img.src ="SpinningRat.gif";
+                return false;
+                }
+            </script>
+        </div>
+    </div>
 
-    <script>
-        function changeImg(){
-            var img = document.getElementById("ratPic");
-            img.src ="SpinningRat.gif";
-            return false;
-        }
-    </script>
-
+    <div class="thingsWorkedOn">
+        <h1>Things I've worked on</h1>
+        <a href="index.html">This website</a>
+    </div>
 
 </body>
-
-<footer>
-    <h1>Things I've worked on</h1>
-    <a href="index.html">This website</a>
-</footer>
 
 </html>
