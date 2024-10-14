@@ -19,6 +19,7 @@ p{
     font-size: 20px;
 }
 
+
 .aboutMe{
     float: left;
     width: 50%;
@@ -34,7 +35,8 @@ p{
 }
 
 .thingsWorkedOn{
-    line-height: 0%;
+    white-space: pre;
+    line-height: 20px;
     clear: both;
     text-align: center; 
 }
